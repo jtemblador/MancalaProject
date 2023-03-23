@@ -8,8 +8,8 @@ const int SIZE=12;
 
 //Function Prototypes
 void setBoard(int []);
-void dBrd();
-void turn();
+void dBrd(); //eduardo
+void turn(); //joe
 
 //Execution Begins Here
 int main(int argc, char** argv) {
