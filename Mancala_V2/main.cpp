@@ -81,7 +81,7 @@ void turn(Player p,const Player p2, int board[SIZE]) {
     cin>>choice;
     choice=toupper(choice); //capitalize if not already capitalized
     
-    choice=valChoice(choice, p.min, p.max, board);
+    choice=valChoice(choice, p.min, p.max, board); //validating the users choice
         
     cout<<"Choice is: "<<choice<<endl;
     choice-=65;  //Choice is now an integer that represents index of board
